@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         init();
         try {
-            Log.d("asdf", "asdf");
             setSocket();
         } catch (URISyntaxException e) {
             e.printStackTrace();
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setSocket() throws URISyntaxException {
-        Log.e("asdf2", "asdf");
         socket = IO.socket("http://10.27.2.150:3001");
         socket.on("result", (Emitter.Listener) args -> {
             runOnUiThread(() -> {
