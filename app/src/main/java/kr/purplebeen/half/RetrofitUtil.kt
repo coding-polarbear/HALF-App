@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitUtil {
     val retrofit = Retrofit.Builder()
-            .baseUrl("http://10.27.2.150:3000")
+            .baseUrl("http://192.168.43.33:3000")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
