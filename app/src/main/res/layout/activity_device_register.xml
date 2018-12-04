@@ -11,8 +11,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/header"
         android:orientation="vertical">
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -35,12 +33,10 @@
                     android:layout_marginBottom="20dp"
                     android:textSize="20dp"
                     android:text="회원님의 귀호등 단말기 정보"/>
-
             </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
